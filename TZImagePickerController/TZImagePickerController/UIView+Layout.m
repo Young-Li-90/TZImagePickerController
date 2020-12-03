@@ -7,7 +7,7 @@
 
 #import "UIView+Layout.h"
 
-@implementation UIView (Layout)
+@implementation UIView (TZLayout)
 
 - (CGFloat)tz_left {
     return self.frame.origin.x;
