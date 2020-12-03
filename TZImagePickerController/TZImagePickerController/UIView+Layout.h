@@ -12,7 +12,7 @@ typedef enum : NSUInteger {
     TZOscillatoryAnimationToSmaller,
 } TZOscillatoryAnimationType;
 
-@interface UIView (Layout)
+@interface UIView (TZLayout)
 
 @property (nonatomic) CGFloat tz_left;        ///< Shortcut for frame.origin.x.
 @property (nonatomic) CGFloat tz_top;         ///< Shortcut for frame.origin.y
